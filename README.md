@@ -1,6 +1,8 @@
 # **Student Grade Prediction Project**
 
-This project aims to predict student grades based on their activities, demographic features, and other influential factors using machine learning models. The project employs multiple regression models, evaluates them using various metrics, and optimizes performance through hyperparameter tuning.
+This project aims to predict student grades based on their activities, demographic features, and other influential factors using machine learning models. The project employs multiple regression models, evaluates them using various metrics, and optimizes performance through hyperparameter tuning. To run this app, follow this streamlit link:
+
+https://budgetc-9zv3v2xh4qqiiggz83yi2n.streamlit.app/
 
 ## **Table of Contents**
 1. [Introduction](#introduction)
@@ -93,19 +95,24 @@ The model was saved as a .pkl file (best_bayesian_random_forest_model.pkl) to be
 ---
 
 ## **Ethics**
-Ethical considerations including Deon Ethics Checklist and Ethics Data Card Checklist were used to evaluate the social impact of the model and app. These are available through the following streamlit app links:
+Ethical considerations including Deon Ethics Checklist and Ethics Data Card Checklist were used to evaluate the social impact of the model and app. These are available through the following streamlit app links or GitHub repositories:
 
-Deon Ethics:
+#### Deon Ethics
 https://mldeonethics-jtppmpppkpa5bjjjkws6pm.streamlit.app/
 
-Ethics Data Card:
+https://github.com/hannahscha/ML_Deon_Ethics/blob/main/README.md
+
+#### Ethics Data Card
 https://mlethicsdatacard-njdaykz4wx5vxcbcnd8twf.streamlit.app/
+
+https://github.com/hannahscha/ML_Ethics_Data_Card/tree/main
 
 ---
 
 ## **Important Figures**
 Through trining the model we only considered the features with over 0.05 correlation to the model. To understand any internal biases of the dataset, the distribution, bee swarm plot, and partial dependence plots are shown below for the data used in training the model. Following the partial dependence plot are the original statistics of the dataset which include the histograms of variables and a stacked distribution of grades of each semester and overall. 
 
+## Training Feature Stats
 ![Feature Distruibution](feature_distribution.png)
 ![Bee Swarm Plot](bee_swarm_plot.png)
 ![Partial Dependence Plot](partial_dependence_plot.png)
@@ -117,10 +124,12 @@ Through trining the model we only considered the features with over 0.05 correla
 
 ## **Acknowledgments and disclosures**
 #### **Acknowledgments**
-We would like to thank the following individuals and organizations for their contributions to the **Student Grade Prediction Project**:
-- **Educators and Students**: For participating in the initial data collection surveys and providing invaluable insights into the real-world challenges of academic performance.
+We would like to thank the following individuals and organizations for their contributions to the Student Grade Prediction Machine Learning Project:
+- **Educators and Students**: For participating in the initial data collection surveys and providing invaluable insights into the real-world challenges of academic performance. 
+
+Cortez, Paulo & Silva, Alice. (2008). *Using data mining to predict secondary school student performance*. EUROSIS. 
 - **The Kaggle Community**: For creating a resource for coding and dataset acquisition. 
-- **Project Advisors and Collaborators**: For their guidance and feedback throughout the ethical evaluation process and the development of the application, thank you to Professor Jude Okolie.
+- **Professor Jude Okolie**: For their guidance and feedback throughout the ethical evaluation process and the development of the application.
 - **Streamlit and Open-Source Community**: For providing tools and libraries that facilitated the seamless creation of this app.
 
 #### **Disclosures**
