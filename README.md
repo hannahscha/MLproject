@@ -4,16 +4,26 @@ This project aims to predict student grades based on their activities, demograph
 
 ## **Table of Contents**
 1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Project Workflow](#project-workflow)
-4. [Models and Evaluation](#models-and-evaluation)
-5. [Ethics](#ethics)
-6. [Important Figures](#important-figures)
+2. [Dataset](#dataset)
+3. [Features](#features)
+4. [Project Workflow](#project-workflow)
+5. [Models and Evaluation](#models-and-evaluation)
+6. [Ethics](#ethics)
+7. [Important Figures](#important-figures)
 
 ---
 
 ## **Introduction**
 This project focuses on leveraging machine learning techniques to predict student grades based on their activities and personal attributes. It explores the relationships between input features and student performance to guide interventions for better academic outcomes.
+
+---
+
+## **Dataset**
+The dataset used to train the model was found on kaggle.com, a public resource for code and datasets available internationally. Specifically, the data collected was from 2 Portuguese secondary schools over a broad range of student demographics. The discussion of data collection and distribution is discussed in the ethics files available at the end of the README file. 
+
+The dataset source can be found on many Kaggle pages. This dataset was found and further explained in Cortez, Paulo & Silva, Alice. (2008). *Using data mining to predict secondary school student performance*. EUROSIS. 
+
+---
 
 ### **Objective**
 - To develop and compare regression models to predict student grades.
