@@ -78,7 +78,7 @@ The following models were trained and evaluated:
 - **LightGBM**
 - **CatBoost**
 
-The best model was determined to be the Random Forest model cross-validated with Bayesian Search to get the following best performance hyperparameters:
+The models were evaluated on the value of the Validation and Test R^2 values, as well as compared to a baseline metric from logistic regression. The best model was determined to be the Random Forest model found via cross-validated with Bayesian Search to get the following best performance hyperparameters:
 ```python
 
     ('max_depth', 10),
@@ -104,10 +104,14 @@ https://mlethicsdatacard-njdaykz4wx5vxcbcnd8twf.streamlit.app/
 ---
 
 ## **Important Figures**
-Through trining the model we only considered the features with over 0.05 correlation to the model. To understand any internal biases of the dataset, the distribution, bee swarm plot, and partial dependence plots are shown below.
+Through trining the model we only considered the features with over 0.05 correlation to the model. To understand any internal biases of the dataset, the distribution, bee swarm plot, and partial dependence plots are shown below for the data used in training the model. Following the partial dependence plot are the original statistics of the dataset which include the histograms of variables and a stacked distribution of grades of each semester and overall. 
+
 ![Feature Distruibution](feature_distribution.png)
 ![Bee Swarm Plot](bee_swarm_plot.png)
 ![Partial Dependence Plot](partial_dependence_plot.png)
+## Dataset Stats
+![histograms](histograms.png)
+![Grade Distribution](grade_distribution.png)
 
 ---
 
@@ -125,6 +129,7 @@ We would like to thank the following individuals and organizations for their con
   - The AI is designed to assist educators by offering additional insights, but it is not a substitute for human judgment and should not be relied upon as the sole decision-making tool.
 - **Limitations**:
   - The model's predictions are based on the dataset's quality and representativeness. Any biases or limitations in the dataset may influence the model's outputs.
+  - Predictions are based on patterns in historical data. The model should be used to support decisions, not as the sole determinant for student support strategies.
   - All users are encouraged to interpret the predictions with caution and use them as a supplementary tool rather than a definitive measure.
 - **Responsible Use**:
   - This app is intended for use within the context of educational support. It should not be used for any other purpose or in ways that might negatively impact students or educators.
