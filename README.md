@@ -10,6 +10,7 @@ This project aims to predict student grades based on their activities, demograph
 5. [Models and Evaluation](#models-and-evaluation)
 6. [Ethics](#ethics)
 7. [Important Figures](#important-figures)
+8. [Acknowledgments and Disclosures](#acknowledgments-and-disclosures)
 
 ---
 
@@ -107,3 +108,34 @@ Through trining the model we only considered the features with over 0.05 correla
 ![Feature Distruibution](feature_distribution.png)
 ![Bee Swarm Plot](bee_swarm_plot.png)
 ![Partial Dependence Plot](partial_dependence_plot.png)
+
+---
+
+## **Acknowledgments and disclosures**
+#### **Acknowledgments**
+We would like to thank the following individuals and organizations for their contributions to the **Student Grade Prediction Project**:
+- **Educators and Students**: For participating in the initial data collection surveys and providing invaluable insights into the real-world challenges of academic performance.
+- **The Kaggle Community**: For creating a resource for coding and dataset acquisition. 
+- **Project Advisors and Collaborators**: For their guidance and feedback throughout the ethical evaluation process and the development of the application, thank you to Professor Jude Okolie.
+- **Streamlit and Open-Source Community**: For providing tools and libraries that facilitated the seamless creation of this app.
+
+#### **Disclosures**
+- **AI Usage**: 
+  - This project uses artificial intelligence (AI) and machine learning (ML) models to predict student performance. These models were trained on historical data and make predictions based on patterns in the dataset.
+  - The AI is designed to assist educators by offering additional insights, but it is not a substitute for human judgment and should not be relied upon as the sole decision-making tool.
+- **Limitations**:
+  - The model's predictions are based on the dataset's quality and representativeness. Any biases or limitations in the dataset may influence the model's outputs.
+  - All users are encouraged to interpret the predictions with caution and use them as a supplementary tool rather than a definitive measure.
+- **Responsible Use**:
+  - This app is intended for use within the context of educational support. It should not be used for any other purpose or in ways that might negatively impact students or educators.
+
+We acknowledge that ethical AI usage requires continuous monitoring and improvement. Feedback from stakeholders is welcomed to ensure the project's goals align with its intended positive impact.
+
+### **AI Assistance in Development**
+This project leveraged AI tools, including OpenAI's ChatGPT, to assist with various aspects of its development. These contributions include:
+
+Drafting initial code structures for the Streamlit application.
+Refining and optimizing Python code for functionality and clarity.
+Generating documentation such as this README, ethical evaluations, and checklist summaries.
+Providing recommendations for project structuring and ethical considerations.
+The AI assistance served as a support tool to enhance productivity and ensure thorough documentation. All outputs from AI were reviewed, tested, and tailored to meet the specific needs of this project. The responsibility for the final implementation, accuracy, and ethical compliance lies with the project team.
